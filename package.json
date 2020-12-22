@@ -1,0 +1,24 @@
+{
+  "name": "curso-nodejs",
+  "version": "1.0.0",
+  "description": "Curso NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebekattan/curso-nodejs.git"
+  },
+  "author": "Rebeca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rebekattan/curso-nodejs/issues"
+  },
+  "homepage": "https://github.com/rebekattan/curso-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
